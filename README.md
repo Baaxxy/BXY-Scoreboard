@@ -1,7 +1,3 @@
-<p align="center">
-    <img width="140" src="https://i.ibb.co/3kTNY7C/x19-icon-9-1.png" />
-</p>
-
 <h1 align="center">BXY-Scoreboard</h1>
 
 <p align="center">
@@ -27,11 +23,9 @@
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="https://i.ibb.co/BGxXWky/x19dev-scoreboardfree2.png" width="80%" />
+  <img src="https://s21.uupload.ir/files/hesamlightpower/Screenshot%202026-09-02%20072226.png" width="80%" />
 </div>
-<div align="center">
-  <img src="https://i.ibb.co/2jdzP8W/Screenshot-2024-10-22-184348.png" width="80%" />
-</div>
+
 
 ## 📦 Requirements
 
