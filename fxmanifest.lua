@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-description 'QB-Scoreboard Redesigned by Didax19'
+description 'QB-Scoreboard Redesigned'
 version '1.0.0'
 ui_page 'html/ui.html'
 shared_script 'config.lua'
