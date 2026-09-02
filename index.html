@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lotus Scoreboard Preview</title>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="preview-shell">
+    <div class="preview-panel">
+      <div class="preview-copy">
+        <div class="preview-badge">LIVE STATUS</div>
+        <h1>Lotus Scoreboard</h1>
+        <p>A cleaner and more readable overview for jobs, activity locks, and player activity.</p>
+
+        <div class="preview-stats">
+          <div class="stat-card">
+            <strong>24</strong>
+            <span>Players</span>
+          </div>
+          <div class="stat-card">
+            <strong>8</strong>
+            <span>On-duty Cops</span>
+          </div>
+          <div class="stat-card">
+            <strong>2</strong>
+            <span>Active Operations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-scoreboard">
+        <div class="scoreboard-block">
+          <div class="scoreboard-header">
+            <div class="header-title">
+              <span class="live-dot"></span>
+              <div>
+                <p class="eyebrow">Server Status</p>
+                <h3>BXY Board</h3>
+              </div>
+            </div>
+            <div class="status-pill">Preview</div>
+          </div>
+          <div class="scoreboard-info"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
