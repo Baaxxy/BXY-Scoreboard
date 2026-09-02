@@ -23,7 +23,7 @@
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="https://s21.uupload.ir/files/hesamlightpower/Screenshot%202026-09-02%20072226.png" width="80%" />
+  <img src="https://s21.uupload.ir/files/hesamlightpower/Screenshot%202026-09-02%20072226.png" width="30%" />
 </div>
 
 
