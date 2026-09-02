@@ -78,7 +78,7 @@ BXY-Scoreboard/
 
 ## 💬 Support
 
-For bug reports, feature requests, or questions, join our <a href="https://discord.gg/gcbzMPxSQt">Discord server</a>.
+For bug reports, feature requests, or questions, join our <a href="https://discord.gg/WNpesKMPXU">Discord server</a>.
 
 ## 📄 License
 
