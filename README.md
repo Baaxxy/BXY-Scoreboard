@@ -1,7 +1,11 @@
+<p align="center">
+    <img width="140" src="https://i.ibb.co/3kTNY7C/x19-icon-9-1.png" />
+</p>
+
 <h1 align="center">BXY-Scoreboard</h1>
 
 <p align="center">
-  A redesigned scoreboard for the <b>QBCore</b> framework — lightweight, easy to configure, and no CSS editing required.
+  یک اسکوربورد بازطراحی‌شده برای فریم‌ورک <b>QBCore</b>، سبک، قابل تنظیم و بدون نیاز به ویرایش CSS.
 </p>
 
 <p align="center">
@@ -12,57 +16,59 @@
 
 ---
 
-## ✨ Features
+## ✨ ویژگی‌ها
 
-- Full rebuild of `qb-scoreboard` with a fresh, modern look
-- Easy configuration with automatic integration of jobs and duty-based roles into the HTML — no CSS editing needed
-- Custom redesign: server logo header and new icon set
-- **Player ID** and **Play Time** displayed at the top of the scoreboard
-- Option to show player IDs to everyone or only to opted-in staff
+- بازسازی کامل `qb-scoreboard` با ظاهری جدید و مدرن‌تر
+- پیکربندی آسان و یکپارچه‌سازی خودکار مشاغل (Jobs) و هیست‌ها با HTML، بدون نیاز به دست‌کاری CSS
+- طراحی اختصاصی: هدر با لوگوی سرور و آیکون‌های جدید
+- نمایش **Player ID** و **Play Time** در بالای اسکوربورد
+- امکان تعیین اینکه ID بازیکنان برای همه نمایش داده شود یا فقط برای استاف‌های آپت‌این‌شده
 
-## 🖼️ Preview
+## 🖼️ پیش‌نمایش
 
 <div align="center">
-  <img src="https://s21.uupload.ir/files/hesamlightpower/Screenshot%202026-09-02%20072226.png" width="30%" />
+  <img src="https://i.ibb.co/BGxXWky/x19dev-scoreboardfree2.png" width="80%" />
+</div>
+<div align="center">
+  <img src="https://i.ibb.co/2jdzP8W/Screenshot-2024-10-22-184348.png" width="80%" />
 </div>
 
-
-## 📦 Requirements
+## 📦 پیش‌نیازها
 
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- FiveM Server (fx_version `cerulean` or newer)
+- FiveM Server (fx_version `cerulean` یا بالاتر)
 
-## 🚀 Installation
+## 🚀 نصب
 
-1. Place the `BXY-Scoreboard` folder inside your server's `resources` directory.
-2. Add the following line to your `server.cfg`:
+1. پوشه‌ی `BXY-Scoreboard` را داخل دایرکتوری `resources` سرورتان قرار دهید.
+2. خط زیر را به `server.cfg` اضافه کنید:
 
    ```cfg
    ensure BXY-Scoreboard
    ```
 
-3. Restart your server.
+3. سرور را ری‌استارت کنید.
 
-## ⚙️ Configuration
+## ⚙️ پیکربندی
 
-All settings live in `config.lua`:
+تمام تنظیمات در فایل `config.lua` قرار دارند:
 
-| Option | Description | Default |
+| گزینه | توضیح | مقدار پیش‌فرض |
 |---|---|---|
-| `Config.OpenKey` | Key used to open the scoreboard | `HOME` |
-| `Config.Toggle` | `true` = press once to open/close, `false` = only visible while the key is held | `false` |
-| `Config.MaxPlayers` | Max player capacity (auto-read from `sv_maxclients`) | `48` |
-| `Config.availableJobs` | List of jobs counted on the scoreboard (e.g. police, EMS) | - |
-| `Config.ShowIDforALL` | Show player IDs to everyone or staff only | `true` |
+| `Config.OpenKey` | کلید باز کردن اسکوربورد | `HOME` |
+| `Config.Toggle` | `true` = با یک بار فشار باز/بسته می‌شود، `false` = فقط تا زمانی که کلید نگه داشته شود باز است | `false` |
+| `Config.MaxPlayers` | حداکثر ظرفیت بازیکنان (به‌صورت خودکار از `sv_maxclients` خوانده می‌شود) | `48` |
+| `Config.availableJobs` | لیست مشاغلی که در اسکوربورد شمارش می‌شوند (مثل پلیس، امداد) | - |
+| `Config.ShowIDforALL` | نمایش ID بازیکنان برای همه یا فقط استاف | `true` |
 
-## 📁 Project Structure
+## 📁 ساختار پروژه
 
 ```
 BXY-Scoreboard/
-├── client.lua         # Client-side logic
-├── server.lua         # Server-side callbacks (player & job data)
-├── config.lua         # User-configurable settings
-├── fxmanifest.lua      # Resource manifest
+├── client.lua         # منطق سمت کلاینت
+├── server.lua         # کالبک‌های سمت سرور (دریافت اطلاعات بازیکنان و مشاغل)
+├── config.lua         # تنظیمات قابل شخصی‌سازی
+├── fxmanifest.lua      # مانیفست ریسورس
 └── html/
     ├── index.html
     ├── ui.html
@@ -70,15 +76,15 @@ BXY-Scoreboard/
     └── app.js
 ```
 
-## 🛠️ Built With
+## 🛠️ ساخته‌شده با
 
 - Lua (Client / Server)
-- HTML, CSS, JavaScript (NUI interface)
+- HTML, CSS, JavaScript (رابط کاربری NUI)
 
-## 💬 Support
+## 💬 پشتیبانی
 
-For bug reports, feature requests, or questions, join our <a href="https://discord.gg/gcbzMPxSQt">Discord server</a>.
+برای گزارش باگ، درخواست قابلیت جدید یا سوال، به <a href="https://discord.gg/gcbzMPxSQt">Discord سرور</a> ما بپیوندید.
 
-## 📄 License
+## 📄 لایسنس
 
-This project is released under the MIT License.
+این پروژه تحت لایسنس MIT منتشر شده است.
